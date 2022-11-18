@@ -10,10 +10,146 @@
     
     <link rel="stylesheet" href="CSS/style.css">
 
-    <title>Hello, world!</title>
+    <script src="https://kit.fontawesome.com/61bae6a0cb.js" crossorigin="anonymous"></script>
+
+    <title>Moqups</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+
+    <nav class="navbar navbar-expand-lg bg-white navbar-light">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand fs-1 col-2 text-center"><span class="text-black">Moqups</span></a>
+
+        <button class="navbar-toggler mx-4" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu" aria-controls="navmenu" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse col-2 justify-content-end" id="navmenu">
+          <ul class="navbar-nav fs-3">
+            <li class="nav-item px-3">
+              <a href="#" class="nav-link text-black">Speakers</a>
+            </li>
+            <li class="nav-item px-3">
+              <a href="#" class="nav-link text-black">Tickets</a>
+            </li>
+            <li class="nav-item px-3">
+              <a href="#" class="nav-link text-black">Venue</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+
+    <div class="hero d-flex justify-content-center container-fluid">
+      <div class="row align-content-center">
+        <div class="col text-center ">
+          <h1 class="text-black fw-bold text-center py-3 fs-1">Public Speaking 101</h1>
+          <p class="text-black fw-bold py-3">Learn best practices of public speaking</p>
+          <button class="btn btn-danger py-3">GET THE TICKET</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="speakers-intro d-flex justify-content-center align-content-center py-5">
+      <div class="row">
+        <div class="col text-center">
+          <h2 class="py-3 fs-1">The Speakers</h2>
+          <p class="p-3 fs-4 m-auto">We will have speakers from all over the world here for you, each with their own unique approach to public speaking!</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Speakers -->
+
+    <div class="speakers row row-cols-1 row-cols-lg-4 row-cols-md-2 g-2 p-4 py-5">
+      <div class="col px-5">
+        <div class="card h-100">
+          <img src="IMG/pexels-adrienn-1542085.jpg" class="card-img-top h.100" alt="Jane Doe">
+          <div class="card-body">
+            <h5 class="card-title">Ruby Jennings</h5>
+            <p class="card-text ">Product Manager at Moqups. Runner, parent and coffee lover. <br> <br> @RJennings</p>
+          </div>
+        </div>
+      </div>
+      <div class="col px-5">
+        <div class="card h-100">
+          <img src="IMG/pexels-asim-alnamat-343717.jpg" class="card-img-top" alt="John Doe">
+          <div class="card-body">
+            <h5 class="card-title">Willie Perkins</h5>
+            <p class="card-text ">Sales Manager at Moqups. Skateboarder, chef and has 5 Shiba Inus. <br><br>@WPerkins</p>
+          </div>
+        </div>
+      </div>
+      <div class="col px-5">
+        <div class="card h-100">
+          <img src="IMG/pexels-andrea-piacquadio-3763188.jpg" class="card-img-top" alt="Jane Doe">
+          <div class="card-body">
+            <h5 class="card-title">Meghan Stone</h5>
+            <p class="card-text ">Marketing Specialist at Moqups. Painter/artist, adventurer and thrill seeker.  <br><br>@MStone</p>
+          </div>
+        </div>
+      </div>
+      <div class="col px-5">
+        <div class="card h-100">
+          <img src="IMG/pexels-marc-lloyd-1462980.jpg" class="card-img-top" alt="John Doe">
+          <div class="card-body">
+            <h5 class="card-title">Leon Hanson</h5>
+            <p class="card-text ">UX Engineer at Moqups. Hobby mechanic, father and has a green thumb.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <!-- Tickets -->
+
+    <div class="tickets d-flex justify-content-center align-content-center py-5">
+      <div class="row">
+        <div class="col text-center">
+          <h2 class="py-3 fs-1">Get Your Ticket Today!</h2>
+          <p class="p-3 fs-4 text-muted m-auto">Each ticket includes: 20 speakers, 1000 participants, 15 sessions, 5 keynotes. </p>
+          <button class="btn btn-danger">BUY TICKET $149</button>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <!-- Venue -->
+
+    <div class="venue d-flex justify-content-center py-5">
+      <div class="row">
+        <div class="col">
+          <h2 class="text-start">The Venue</h2>
+          <div class="row">
+            <div class="col-8">
+              <p class="text-start text-wrap"><span class="text-muted">Our event will be held at the </span><span class="fw-bold">Main Office headquarters as Provost & East Building 145 City Road, London.</span></p>
+            </div>
+          </div>
+          <iframe class="" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4057.3675774590747!2d-0.12471294709749842!3d51.50922444158011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604cbcfae5a4d%3A0x15f4effda4fbdc29!2sThe%20Savoy%20Hotel!5e0!3m2!1sen!2sus!4v1668742804289!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="col london">
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <!-- Footer -->
+
+    <footer class="container-fluid d-flex justify-content-between">
+      <div class="ps-2">
+        <i class="fa-brands fa-twitter px-2"></i>
+        <i class="fa-brands fa-instagram px-2"></i>
+        <i class="fa-brands fa-square-facebook px-2"></i>
+      </div>
+      <div>
+        <p class="pe-5">&copy 2022 Moqups</p>
+      </div>
+    </footer>
 
     <!-- Optional JavaScript; choose one of the two! -->
 

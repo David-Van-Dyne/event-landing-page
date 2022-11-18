@@ -1,0 +1,21 @@
+.hero {
+    background-image: url(../IMG/pexels-fauxels-3184328.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+}
+
+.speakers-intro {
+    height: 300px;
+}
+
+.speakers-intro p {
+    width: 50%;
+}
+
+.london {
+    width: 350px;
+    background-image: url(../IMG/pexels-vaan-photography-12085631\(1\).jpg);
+    background-position: center;
+    background-size: cover;
+}
