@@ -1,3 +1,9 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .hero {
     background-image: url(../IMG/pexels-fauxels-3184328.jpg);
     background-size: cover;
@@ -13,9 +19,6 @@
     width: 50%;
 }
 
-.london {
+/* .london {
     width: 350px;
-    background-image: url(../IMG/pexels-vaan-photography-12085631\(1\).jpg);
-    background-position: center;
-    background-size: cover;
-}
+} */
